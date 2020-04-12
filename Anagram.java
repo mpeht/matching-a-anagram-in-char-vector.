@@ -32,7 +32,7 @@ public class Anagram {
         int num02 = (vector.length - 1);
 
         for (i = 0; i < vector.length; i++) {
-            System.out.println("Digite uma letra no vetor de char: ");
+            System.out.println("Enter the letter to fill the char vector: ");
             vector[i] = sc.next().charAt(0);
             aux = vector[i];
             vector02[num02] = aux;
@@ -43,7 +43,7 @@ public class Anagram {
             System.out.println("This is a anagram.");
         } else {
             System.out.println(vector);
-            System.out.println("This is not a anagrama.");
+            System.out.println("This is not a anagram.");
         }
     }
 }
